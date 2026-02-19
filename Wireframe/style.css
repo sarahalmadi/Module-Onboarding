@@ -91,6 +91,7 @@ article {
   > * {
     grid-column: 2/3;
   }
+  
   > img {
     grid-column: span 3;
   }
