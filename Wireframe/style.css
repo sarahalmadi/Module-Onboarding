@@ -18,7 +18,7 @@ As well as useful links to learn more */
 ====== Design Palette ====== */
 :root {
   --paper: oklch(7 0 0);
-  --ink: color-mix(in oklab, var(--color) 5%, black);
+  --ink: #511d1d; /* used for footer background */
   --font: 100%/1.5 system-ui;
   --space: clamp(6px, 6px + 2vw, 15px);
   --line: 1px solid;
@@ -33,10 +33,11 @@ header {
  General rules for basic HTML elements in any context */
 body {
   background: var(--paper);
-  color: var(--ink);
+  color: #ffffff;
   font: var(--font);
 }
 a {
+  color: #4ea3ff;
   padding: var(--space);
   border: var(--line);
   max-width: fit-content;
@@ -55,8 +56,8 @@ main {
   margin: 0 auto calc(var(--space) * 4) auto;
 }
 footer {
-   background: var(--ink);
-  color: var(--paper);
+  background: var(--ink);
+  color: #ffffff;
   width: 100%;
   padding: var(--space);
   position: fixed;
