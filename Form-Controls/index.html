@@ -27,17 +27,22 @@
       </fieldset>
       <br>
       <fieldset>
-        <legend>T-shirt color</legend>
-        <label for="color">Choose a color:</label>
-        <select id="color" name="color" required>
-          <option value="">--Please pick an option--</option>
-          <option value="pink">Pink</option>
-          <option value="orange">Orange</option>
-          <option value="green">Green</option>
-          </select>
+        <legend>Choose a color</legend>
+        <label>
+          <input type="radio" name="color" value="pink" required>
+          Pink
+        </label>
+        <label>
+          <input type="radio" name="color" value="orange">
+          Orange
+        </label>
+        <label>
+          <input type="radio" name="color" value="red">
+          Red
+         </label>
+        
 
-
-          <label for="size">Choose your size:</label>
+        <label for="size">Choose your size:</label>
         <select id="size" name="size" required>
           <option value="">--Please pick an option--</option>
           <option value="xs">XS</option>
