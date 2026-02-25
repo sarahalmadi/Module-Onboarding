@@ -16,17 +16,13 @@
       <fieldset>
         <legend>Customer Details</legend>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required minlength="3">
-        <br>>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="text" id="name" name="name" required minlength="2"/>
         <br>
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-        <small>Format: 123-456-7890</small>
-      </fieldset>
-      <br>
-      <fieldset>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required/>
+       </fieldset>
+       <br>
+       <fieldset>
         <legend>Choose a color</legend>
         <label>
           <input type="radio" name="color" value="pink" required>
@@ -44,7 +40,7 @@
 
         <label for="size">Choose your size:</label>
         <select id="size" name="size" required>
-          <option value="">--Please pick an option--</option>
+          <option value="" disabled selected>--Please pick an option--</option>
           <option value="xs">XS</option>
           <option value="s">S</option>
           <option value="m">M</option>
