@@ -7,7 +7,8 @@ console.log(`I am ${currentYear - yearOfBirth} years old`);
 // Output: I am 29 years old
 console.log("hello there!");
 // Output: hello there!
-const result = console.log("hello world");
-// Output: hello world
-console.log(result);
-// Output: undefined
+convertToPercentage(0.5); // should return "50%"
+convertToPercentage(0.231); // should return "23.1%"
+function convertToPercentage(decimal) {
+  return `${decimal * 100}%`;
+}
