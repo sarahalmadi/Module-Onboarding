@@ -7,3 +7,7 @@ console.log(`I am ${currentYear - yearOfBirth} years old`);
 // Output: I am 29 years old
 console.log("hello there!");
 // Output: hello there!
+const result = console.log("hello world");
+// Output: hello world
+console.log(result);
+// Output: undefined
